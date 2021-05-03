@@ -37,7 +37,7 @@ function init() {
     renderer.setSize( window.innerWidth, window.innerHeight )
     
     /* add fog for aurora effect */
-    scene.fog = new THREE.FogExp2(0xb946b4, 0.001)
+    scene.fog = new THREE.FogExp2(0xe3e3e3, 0.001)
     renderer.setClearColor(scene.fog.color)
     
     /* add scene to the page as a canvas element */
